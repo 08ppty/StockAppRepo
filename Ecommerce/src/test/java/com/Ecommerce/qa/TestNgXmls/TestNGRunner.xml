@@ -1,0 +1,23 @@
+<suite name="test1" verbose="1">
+	
+	<listeners>
+		
+		<listener class-name="com.Ecommerce.qa.TestPages.ItestListenerClass"></listener>
+	</listeners>
+	<test name="POMFramework">
+		<classes>
+			
+			
+			<class name="com.Ecommerce.qa.TestPages"></class>
+			<class name="com.Ecommerce.qa.pages"></class>
+		    
+			
+			
+		</classes>
+		
+		
+	</test>
+	
+	
+	
+</suite>
